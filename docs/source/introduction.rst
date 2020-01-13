@@ -44,7 +44,7 @@ library.  yMMSL files can also contain settings, so that all the information
 needed for a simulation run can be described in a single file.
 
 **muscle_manager** is the central run-time component of MUSCLE 3. It is started
-together with the compute element intances, and provides a central coordination
+together with the compute element instances, and provides a central coordination
 point that the instances use to find each other. The manager also collects log
 messages from the individual instances to aid in debugging, and some profiling
 information to aid in scheduling and performance optimisation.
