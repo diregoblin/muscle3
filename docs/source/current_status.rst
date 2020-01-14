@@ -43,7 +43,7 @@ macro-model. This too can be described with the MMSL and implemented using
 MUSCLE.
 
 For adjacent spatial scales, information needs to be exchanged between the
-micro-model instances. This effectively equivalent to domain decomposition,
+micro-model instances. This is effectively equivalent to domain decomposition,
 which MUSCLE 3 cannot (yet) do. In practice, compute-intensive models usually do
 this internally anyway, so this is not a major limitation, although it would be
 nice to have.
